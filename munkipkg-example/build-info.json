@@ -1,0 +1,15 @@
+{
+    "distribution_style": true,
+    "identifier": "com.erikng.subprocesswift",
+    "install_location": "/",
+    "name": "subprocesswift-${version}.pkg",
+    "ownership": "recommended",
+    "postinstall_action": "none",
+    "preserve_xattr": true,
+    "signing_info": {
+        "identity": "Mac Installer: Erik Gomez (XXXXXXXXXXX)",
+        "timestamp": true
+    },
+    "suppress_bundle_relocation": true,
+    "version": "1.0"
+}

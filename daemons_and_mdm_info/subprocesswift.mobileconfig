@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>subprocesSwift Privacy Preferences Policy Control</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikng.subprocesswift.pppc</string>
+			<key>PayloadOrganization</key>
+			<string>GitHub</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>0C2A08AF-A0FB-41D5-BA97-5FE243C018E3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier subprocesswift and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Somewhere (E3PM1GCB4A)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/usr/local/bin/subprocesswift</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>SystemPolicyDesktopFolder</key>
+				<array/>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array/>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array/>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>subprocesSwift</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikng.subprocesswift</string>
+	<key>PayloadOrganization</key>
+	<string>GitHub</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E24024B2-5598-4006-9BD8-F6D8DFB19F20</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

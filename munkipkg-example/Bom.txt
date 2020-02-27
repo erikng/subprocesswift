@@ -1,0 +1,6 @@
+.	40755	0/0
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/bin	40755	0/0
+./usr/local/bin/._subprocesswift	100755	0/0	0	0
+./usr/local/bin/subprocesswift	100755	0/0	1475440	2311188596

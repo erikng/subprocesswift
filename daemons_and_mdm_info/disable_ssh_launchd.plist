@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.github.erikng.subprocesswift.disable.ssh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/subprocesswift</string>
+		<string>--path</string>
+		<string>/usr/sbin/systemsetup</string>
+		<string>-a</string>
+		<string>-f</string>
+		<string>-a</string>
+		<string>-setremotelogin</string>
+		<string>-a</string>
+		<string>off</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/var/log/subprocesswift_disablessh.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/subprocesswift_disablessh.log</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>30</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>45</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
